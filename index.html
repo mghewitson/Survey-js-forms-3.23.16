@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Survey!&copy;</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+
+    <div class="jumbotron">
+      <h1>Please take our survey!</h1>
+    </div>
+
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-xs-6">
+            <h3>What is your favorite beverage?</h3>
+            <select class="form-control" id="beverage">
+              <option>Coffee</option>
+              <option>Tea</option>
+              <option>Kombucha</option>
+              <option>Water</option>
+            </select>
+          </div>
+
+          <div class="col-xs-6">
+            <h3>What is the best ice cream flavor?</h3>
+            <div class="radio">
+                <label>
+                  <input type="radio" name="flavor" value="chocolate" checked>
+                  Chocolate
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="flavor" value="vanilla">
+                  Vanilla
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="flavor" value="cookiesandcream">
+                  Cookies &amp; Cream
+                </label>
+              </div>
+          </div>
+
+          <div class="col-xs-6">
+            <h3>What is the date today?</h3>
+            <div class="form-group">
+              <label for="born">Date today:</label>
+              <input id="born" class="form-control" type="date">
+            </div>
+          </div>
+
+          <div class="col-xs-6">
+            <h3>What is your favorite color?</h3>
+            <div class="form-group">
+              <label for="color"></label>
+              <input id="color" class="form-control" type="color">
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-success center-block">Show me the results!</button>
+      </form>
+
+
+      <div id="answer">
+        <div class="answer-text">
+          <ul class="list">
+            <li>Your favorite beverage is <span class="beverage"></span>.</li>
+            <li>In your opinion, the best flavor of ice cream is <span class="ice-cream"></span>.</li>
+            <li>You said the date today was <span class="date"></span>.</li>
+            <li>Your favorite color is <span class="color"></span>.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

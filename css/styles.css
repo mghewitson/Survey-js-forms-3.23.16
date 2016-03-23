@@ -1,0 +1,39 @@
+.jumbotron {
+  text-align: center;
+  background-color: hotpink;
+  color: yellow;
+}
+
+.btn {
+  font-size: 17px;
+  height: 35px;
+  width: 200px;
+}
+
+.btn-success {
+  background-color: hotpink;
+  color: yellow;
+
+}
+
+.btn-success:hover {
+  height: 60px;
+  width: 260px;
+  font-size: 23px;
+  background-color: yellow;
+  color: hotpink;
+
+}
+
+ul {
+  padding-top: 4%;
+  font-size: 20px;
+}
+
+span {
+  color: hotpink;
+}
+
+#answer {
+  display: none;
+}
