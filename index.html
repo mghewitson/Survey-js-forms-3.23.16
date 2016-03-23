@@ -16,9 +16,9 @@
     <div class="container">
       <form>
         <div class="row">
-          <div class="col-xs-6">
+          <div class="col-sm-6">
             <h3>What is your favorite beverage?</h3>
-            <select class="form-control" id="beverage">
+            <select class="form-control input-lg" id="beverage">
               <option>Coffee</option>
               <option>Tea</option>
               <option>Kombucha</option>
@@ -26,7 +26,7 @@
             </select>
           </div>
 
-          <div class="col-xs-6">
+          <div class="col-sm-6">
             <h3>What is the best ice cream flavor?</h3>
             <div class="radio">
                 <label>
@@ -48,25 +48,28 @@
               </div>
           </div>
 
-          <div class="col-xs-6">
+          <div class="col-sm-6">
             <h3>What is the date today?</h3>
             <div class="form-group">
               <label for="born">Date today:</label>
-              <input id="born" class="form-control" type="date">
+              <input id="born" class="form-control input-lg" type="date">
             </div>
           </div>
 
-          <div class="col-xs-6">
+          <div class="col-sm-6">
             <h3>What is your favorite color?</h3>
             <div class="form-group">
               <label for="color"></label>
-              <input id="color" class="form-control" type="color">
+              <input id="color" class="form-control input-lg" type="color">
             </div>
           </div>
         </div>
         <button type="submit" class="btn btn-success center-block">Show me the results!</button>
       </form>
 
+      <div id="date">
+        <button type="submit" class="btn btn-success center-block">Tell me the date today!</button>
+      </div>
 
       <div id="answer">
         <div class="answer-text">
