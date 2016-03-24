@@ -23,7 +23,7 @@ $(document).ready(function() {
     var yyyy = tdate.getFullYear(); //yields year
     var xxx = ( MM+1) + "-" + dd + "-" + yyyy;
 
-    $(".beverage").text(beverageInput);
+    $("#output-date").text(xxx);
 
 
   });
